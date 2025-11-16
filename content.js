@@ -1,18 +1,27 @@
+// ---------------------------------------------------------------------------
+// ChatGPT Enter Key Remap
+// ---------------------------------------------------------------------------
+// This script modifies ChatGPT's default keboard behaviour:
+//
+//   • Enter        → inserts a newline (Shift+Enter behaviour)
+//   • Ctrl+Enter   → sends the message
 
 (function() {
   'use strict';
-  console.log("🔄 Remap: Enter → Shift+Enter, Ctrl+Enter → Send");
+  // console.log("🔄 Remap: Enter → Shift+Enter, Ctrl+Enter → Send");
 
+   // Finds the active ChatGPT editor (contenteditable div or textbox role)
   function getEditor(target) {
     return target?.closest?.('div[contenteditable="true"], [role="textbox"]');
   }
 
+   // Sends the ChatGPT message by clicking the real send button
   function clickSend(fromEl) {
     const form = fromEl.closest("form");
     const btn = form?.querySelector('button[data-testid="send-button"], button[aria-label="Send"]');
     if (btn) {
       btn.click();
-      console.log("✅ Ctrl+Enter → send");
+      // console.log("✅ Ctrl+Enter → send");
     }
   }
 
@@ -20,7 +29,7 @@
     const editor = getEditor(e.target);
     if (!editor) return;
 
-    // Enter → simulate real Shift+Enter (newline)
+    // Remap Enter Key to New Line by listening for Enter Key Press and replacing it with Shift+Enter (ChatGPT Default behavior)
     if (e.key === "Enter" && !e.shiftKey && !e.ctrlKey) {
       e.preventDefault();
       e.stopImmediatePropagation();
@@ -40,11 +49,12 @@
       console.log("↩️ Enter remapped to Shift+Enter (newline)");
     }
 
-    // Ctrl+Enter → send via button
+    // Remap Ctrl+Enter to Submit Message
     if (e.key === "Enter" && e.ctrlKey) {
       e.preventDefault();
       e.stopImmediatePropagation();
       clickSend(editor);
     }
   }, true);
+
 })();
