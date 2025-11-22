@@ -19,7 +19,7 @@ This extension exists for people who prefer natural text editing in ChatGPT with
 ## 📦 Installation
 ### From the Chrome Web Store
 Visit this link to enable the Chrome Extension
-[https://chromewebstore.google.com/detail/gkafohpooeogngjfiimkmoaaooicihgd?utm_source=item-share-cb](Chrome Web Store)
+[https://chromewebstore.google.com/detail/gkafohpooeogngjfiimkmoaaooicihgd](Chrome%20Web%20Store)
 <br><br>
 
 ### Manual Installation (Developer Mode)
