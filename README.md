@@ -19,7 +19,7 @@ This extension exists for people who prefer natural text editing in ChatGPT with
 ## 📦 Installation
 ### From the Chrome Web Store
 Visit this link to enable the Chrome Extension
-[https://chromewebstore.google.com/detail/gkafohpooeogngjfiimkmoaaooicihgd](Chrome%20Web%20Store)
+[Chrome Web Store](https://chromewebstore.google.com/detail/gkafohpooeogngjfiimkmoaaooicihgd)
 <br><br>
 
 ### Manual Installation (Developer Mode)
@@ -59,4 +59,4 @@ This extension:
 ❌ Does not access your ChatGPT conversations  
 
 Read the full Privacy Policy here:  
-➡️ [https://github.com/GlynDavidson1/chatgpt-ctrlEntSend/blob/main/Privacy%20Policy](Privacy%20Policy)
+➡️ [Privacy Policy)](https://github.com/GlynDavidson1/chatgpt-ctrlEntSend/blob/main/Privacy%20Policy)
