@@ -60,3 +60,16 @@ This extension:
 
 Read the full Privacy Policy here:  
 [Privacy Policy](https://github.com/GlynDavidson1/chatgpt-ctrlEntSend/blob/main/Privacy%20Policy)
+<br><br>
+
+## 👨‍💻 Author
+Glyn Davidson <br>
+Developer, climber, and chronic tinkerer of occasionally useful tools.
+<br><br>
+
+
+## Buy me a Coffee
+If you found this trainer useful, please consider [buying me a coffee](https://buymeacoffee.com/glyndavidson) to support my work.<br>
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%F0%9F%8D%BA-yellow)](https://buymeacoffee.com/glyndavidson)
+<br><br>
